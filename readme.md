@@ -26,7 +26,7 @@ cd .\bmsceAcm
 python manage.py runserver
 ```
 
-- To start the backend server
+- To start the frontend
 ```
 cd .\bmsceAcm
 python manage.py runserver
