@@ -28,8 +28,8 @@ python manage.py runserver
 
 - To start the frontend
 ```
-cd .\bmsceAcm
-python manage.py runserver
+cd .\frontend
+npm start
 ```
 
 - To get the database
