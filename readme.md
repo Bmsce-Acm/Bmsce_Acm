@@ -1,6 +1,12 @@
 # BMSCE ACM
 
-## To start this project run,
+- Clone this project
+```
+git clone https://github.com/Bmsce-Acm/bmsce_acm.git
+```
+
+## To start this project run the following commands:
+
 - For Python setup:
 ```
 pip install pipenv
@@ -10,18 +16,24 @@ pipenv install -r requirements.txt
 
 - For Node setup:
 ```
-cd .\bmsceAcm\frontend
+cd .\frontend
 npm i
-npm run build
 ```
 
-- For any changes in frontend to appear run this after the changes in frontend
+- To start the backend server
 ```
-npm run build
-```
-
-- To start the App
-```
-cd .\bmsceAcm\
+cd .\bmsceAcm
 python manage.py runserver
+```
+
+- To start the backend server
+```
+cd .\bmsceAcm
+python manage.py runserver
+```
+
+- To get the database
+```
+cd .\bmsceAcm
+python manage.py migrate
 ```
