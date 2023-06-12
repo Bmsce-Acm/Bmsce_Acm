@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Roboto&family=Rubik+80s+Fade&family=Rubik+Vinyl&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lora', serif;
+  /* font-family: 'Roboto', sans-serif;
+  font-family: 'Rubik 80s Fade', cursive;
+  font-family: 'Rubik Vinyl', cursive; */
+}
+
+.home,
+.services,
+.products,
+.sign-up {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.banner_head_container h1 {
+  font-size: 5rem;
+  color: #fff;
+  text-shadow: 2px 2px 5px #000000;
+}
+
+@import url("./Styles/btn.css");
+@import url("./Styles/navbar.css");
+@import url("./Styles/footer.css");
+@import url("./Styles/heroSection.css");
+@import url("./Styles/cards.css");
+@import url("./Styles/aboutacm.css");
+@import url("./Styles/contact.css");
+@import url("./Styles/events.css");
+@import url("./Styles/blogs.css");
+@import url("./Styles/eventPage.css");
+@import url("./Styles/teams.css");
+@import url("./Styles/login.css");

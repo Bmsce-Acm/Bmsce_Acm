@@ -1,0 +1,74 @@
+.login__section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login__display {
+    display: flex;
+    width: inherit;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: 25px;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+}
+
+.login__display img {
+    width: 450px;
+    height: 450px;
+}
+
+.login__display .login__form {
+    padding: 20px;
+}
+
+.login__form div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 7px;
+}
+
+.login__form div input {
+    padding: 7px;
+    background: none;
+    font-size: 15px;
+    color: #575656;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    background-color: rgba(156, 189, 249, 0.17);
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+}
+
+.login__btn {
+    border: 1px solid #000000;
+    background: none;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 100%;
+    transition: 0.2s all ease-in-out;
+}
+
+.login__btn:hover {
+    cursor: pointer;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 1180px) {
+    .login__display {
+        flex-direction: column;
+    }
+
+    .login__display img {
+        width: 250px;
+        height: 250px;
+    }
+}
